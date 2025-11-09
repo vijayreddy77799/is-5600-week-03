@@ -1,6 +1,12 @@
 :root {
   --spacing-medium: 1rem;
   --spacing-small: 0.5rem;
+  
+  --bg-color: linear-gradient(135deg, #ff9966, #ff5e62);
+  --text-color: #fff;
+  --input-bg: #fff7f5;
+  --input-border: #ff8a66;
+  --input-focus: #ff5e62;
 }
 
 body {
@@ -10,9 +16,25 @@ body {
   justify-content:space-between;
   height:100vh;
   padding:var(--spacing-medium);
+    font-family: 'Avenir Next', Avenir, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding: var(--spacing-medium);
 }
 
 input {
   width: 100%;
   padding:var(--spacing-small);
+    font-family: 'Avenir Next', Avenir, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding: var(--spacing-medium);
 }
